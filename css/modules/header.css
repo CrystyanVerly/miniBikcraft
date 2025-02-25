@@ -1,0 +1,31 @@
+.head-container {
+  margin: 2rem 0rem;
+  padding: 0 5rem;
+}
+.head-container img {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0rem auto 2rem;
+}
+.nav-container ul {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 15px;
+  place-content: center;
+}
+.nav-container li {
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: 1px -1px 1px 0px rgba(235, 235, 235, 1);
+  cursor: pointer;
+  font-weight: 500;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: border 0.3s;
+}
+.nav-container li:hover {
+  border: 2px solid #900;
+}
