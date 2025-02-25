@@ -5,6 +5,7 @@
   --text-color-1: #111;
   --text-color-2: #444;
   --transparency: rgba(0, 0, 0, 0.2);
+  --wave: url(/img/onda-light.svg);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -13,6 +14,7 @@
     --primary-color: #ee2211;
     --text-color-1: #eee;
     --text-color-2: #bbb;
-    --transparency: rgba(0, 0, 0, 0.6);
+    --transparency: rgba(255, 255, 255, 0.2);
+    --wave: url(/img/onda-dark.svg);
   }
 }
