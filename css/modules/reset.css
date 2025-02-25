@@ -7,7 +7,7 @@
   vertical-align: baseline;
 }
 body {
-  background-color: #f7f7f7;
+  background-color: var(--backgroundbody);
   height: 100vh;
   line-height: 1.3;
 }

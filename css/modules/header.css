@@ -10,16 +10,16 @@
 }
 .nav-container ul {
   display: flex;
-  flex: 1;
   flex-wrap: wrap;
   gap: 15px;
   place-content: center;
 }
 .nav-container li {
-  background-color: #fff;
+  background-color: var(--background);
+  color: var(--text-color-1);
   border: 2px solid transparent;
   border-radius: 4px;
-  box-shadow: 1px -1px 1px 0px rgba(235, 235, 235, 1);
+  box-shadow: 1px -1px 1px 0px rgba(5, 5, 5, 0.3);
   cursor: pointer;
   font-weight: 500;
   padding: 15px;

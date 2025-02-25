@@ -1,0 +1,18 @@
+:root {
+  --background: #fff;
+  --backgroundbody: #f7f7f7;
+  --primary-color: #ee2211;
+  --text-color-1: #111;
+  --text-color-2: #444;
+  --transparency: rgba(0, 0, 0, 0.2);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #222;
+    --backgroundbody: #333;
+    --primary-color: #ee2211;
+    --text-color-1: #eee;
+    --text-color-2: #bbb;
+    --transparency: rgba(0, 0, 0, 0.6);
+  }
+}

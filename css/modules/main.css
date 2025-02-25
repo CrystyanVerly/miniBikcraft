@@ -10,7 +10,7 @@
   position: relative;
 }
 .img-container::before {
-  background-color: #ee2211;
+  background-color: var(--primary-color);
   content: "";
   display: inline-block;
   height: 4px;
@@ -21,7 +21,7 @@
 }
 .description-container {
   align-items: end;
-  background-color: #fff;
+  background-color: var(--background);
   display: flex;
   flex-direction: column;
   font-size: 1.25rem;
@@ -32,12 +32,14 @@
 }
 .description-container p {
   max-width: 25rem;
+  color: var(--text-color-2);
 }
 .description-container h1 {
   font-size: 2rem;
+  color: var(--text-color-1);
 }
 .description-container button {
-  background-color: #ee2211;
+  background-color: var(--primary-color);
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
@@ -52,7 +54,7 @@
   align-items: center;
   align-self: center;
   background-image: url(/img/onda.svg);
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--transparency);
   cursor: default;
   font-size: 4rem;
   font-weight: bold;
@@ -61,7 +63,7 @@
   text-transform: uppercase;
 }
 .advantages-container {
-  background-color: #fff;
+  background-color: var(--background);
   display: grid;
   grid-template-columns: auto;
   padding: 1rem;
@@ -88,9 +90,13 @@
   width: 4px;
 }
 .advantage:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: var(--backgroundbody);
+}
+.advantage-description h2 {
+  color: var(--text-color-1);
 }
 .advantage-description p {
   margin-top: 10px;
   max-width: 20rem;
+  color: var(--text-color-2);
 }
